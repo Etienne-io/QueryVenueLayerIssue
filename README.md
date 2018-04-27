@@ -12,7 +12,7 @@ The Selected POI on the second click is almost each time the N-1 POI (305 with t
 
 
 
-## Other issue seen on this project
+# Other issue seen on this project : Symbol with longitude 0.0 produces wrong collision behaviour
 
 When zoom out, the POI #0 (coordinate (0.0, 0.0) should be always visible cause it is the first POI of the features array but it is not. It is hidden by collision.
 
