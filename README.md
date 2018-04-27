@@ -21,7 +21,7 @@ If you change those lines :
 feature[@"latitude"] = [NSNumber numberWithDouble:i/10000.0];  
 feature[@"longitude"] = [NSNumber numberWithDouble:j/10000.0];
 
-with : 
+with :  
 feature[@"latitude"] = [NSNumber numberWithDouble:(i/10000.0 + 0.0001)];  
 feature[@"longitude"] = [NSNumber numberWithDouble:(j/10000.0 + 0.0001)];
 
