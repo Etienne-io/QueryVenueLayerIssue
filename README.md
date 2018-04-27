@@ -18,11 +18,11 @@ When zoom out, the POI #0 (coordinate (0.0, 0.0) should be always visible cause 
 
 If you change those lines : 
 
-feature[@"latitude"] = [NSNumber numberWithDouble:i/10000.0];
+feature[@"latitude"] = [NSNumber numberWithDouble:i/10000.0];  
 feature[@"longitude"] = [NSNumber numberWithDouble:j/10000.0];
 
 with : 
-feature[@"latitude"] = [NSNumber numberWithDouble:(i/10000.0 + 0.0001)];
+feature[@"latitude"] = [NSNumber numberWithDouble:(i/10000.0 + 0.0001)];  
 feature[@"longitude"] = [NSNumber numberWithDouble:(j/10000.0 + 0.0001)];
 
 The POI #0 (coordinate (0.0001, 0.0001) is always displayed as expected.
